@@ -11,12 +11,14 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
+      accent: white
       toggle:
         icon: material/brightness-7
 
-    - media: "(orefers-color-scheme: dark)"
+    - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
+      accent: black
       toggle:
         icon: material/brightness-4
 
