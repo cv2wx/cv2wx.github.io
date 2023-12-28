@@ -1,0 +1,26 @@
+site_name: 清音为羽
+site_url: https://chingjyu.cyou
+repo_url: https://github.com/cv2wx/cv2wx.github.io
+edit_uri: ""
+repo_name: 清羽：主页
+copyright: 
+theme:
+  name: material
+  logo: 
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+markdown_extensions:
+  - pymdownx.magiclink
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+nav:
+  - 首页: index.md
+  - 隐私政策: privacy_policy.md
